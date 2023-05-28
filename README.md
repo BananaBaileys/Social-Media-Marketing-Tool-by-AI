@@ -4,6 +4,6 @@
 
 ### Stay ahead of the curve with the best marketing trends of 2023
 
-Using OpenAI and PHP, this will help businesses to generate marketing captions and images
+Using OpenAI and PHP, this will help businesses to generate marketing captions and images for **Instagram**, **Facebook**, and **Twitter**
 
-### This is a completely AI-driven marketing tool and image generation With help from our brothers at OpenAI, Generating marketing caption and image for social media
+Digital marketing on the big 3 social media apps will promote your brand to a wide audience. It will also help with businesses to build credibility and solidify their expertise
