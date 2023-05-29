@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1{
+    
+}
+.facebook_container{
+    background-color: #4267B2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.instagram_container{
+    background:linear-gradient(37.9deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.twitter_container{
+    background-color: #00ACEE;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

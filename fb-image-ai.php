@@ -5,18 +5,20 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = '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';
 $open_ai = new OpenAi($open_ai_key);
+
 $prompt = $_POST['prompt'];
 
 $complete = $open_ai->image(
     [
-    "prompt" => $prompt ."for Facebook marketing",
-    "n" => 1,
-    "size" => "256x256",
-    "response_format" => "url",
-    ]
+        "prompt" => $prompt ." for Facebook Marketing",
+        "n" => 1,
+        "size" => "256x256",
+        "response_format" => "url",
+     ]
 );
+
 
 
 $response = json_decode($complete, true);

@@ -5,15 +5,15 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = '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';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
 $complete = $open_ai->completion([
     'model' => 'text-davinci-003',
-    'prompt' => 'Writing 3 marketing Facebook caption for '. $prompt,
+    'prompt' => 'Writing a marketing Facebook caption for '. $prompt,
     'temperature' => 0.9,  // increase more random
-    'max_tokens' => 150,   // how long the text output
+    'max_tokens' => 50,   // how long the text output
     'frequency_penalty' => 0,   // increase will increase word repetition
     'presence_penalty' => 0.6,       // topic repetition
  ]);
