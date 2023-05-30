@@ -27,7 +27,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate" />
                         </div>
                     </form>
                 </div>
@@ -43,7 +43,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate Image" />
+                            <input class="btn" type="submit" value="Generate Image" />
                         </div>
                     </form>
                 </div>
@@ -64,7 +64,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate" />
                         </div>
                     </form>
                 </div>
@@ -80,7 +80,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate Image" />
+                            <input class="btn" type="submit" value="Generate Image" />
                         </div>
                     </form>
                 </div>
@@ -103,7 +103,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate" />
                         </div>
                     </form>
                 </div>
@@ -119,7 +119,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input type="submit" value="Generate Image" />
+                            <input class="btn" type="submit" value="Generate Image" />
                         </div>
                     </form>
                 </div>
