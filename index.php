@@ -12,39 +12,41 @@
 </head>
 
 <body>
-    <div>
-        <h1>Marketing Tool</h1>
+    <div class="MT-headding">
+        <h1 class="h1_font">Social Media Marketing Tool</h1>
     </div>
     <div class="container">
         <div class="facebook_container">
-            <div>
-                <h1 >Write a Facebook Marketing Captions for</h1>
-            </div>
-            <div>
-                <form action="fb-caption-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate" />
-                    </div>
-                </form>
-            </div>
+            <div class="inner_container">
+                <div>
+                    <h1 class="font">Write a Facebook Marketing Captions for</h1>
+                </div>
+                <div>
+                    <form action="fb-caption-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate" />
+                        </div>
+                    </form>
+                </div>
 
-            <hr>
+                <hr>
 
-            <div>
-                <h1 >Generate a Facebook Image for</h1>
-            </div>
-            <div>
-                <form action="fb-image-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate Image" />
-                    </div>
-                </form>
+                <div>
+                    <h1 class="font">Generate a Facebook Image for</h1>
+                </div>
+                <div>
+                    <form action="fb-image-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate Image" />
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -52,34 +54,36 @@
         <hr>
 
         <div class="instagram_container">
-            <div>
-                <h1 >Write a Instagram Marketing Captions for</h1>
-            </div>
-            <div>
-                <form action="ig-caption-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate" />
-                    </div>
-                </form>
-            </div>
+            <div class="inner_container">
+                <div>
+                    <h1 class="font">Write a Instagram Marketing Captions for</h1>
+                </div>
+                <div>
+                    <form action="ig-caption-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate" />
+                        </div>
+                    </form>
+                </div>
 
-            <hr>
+                <hr>
 
-            <div>
-                <h1 >Generate a Instagram Image for</h1>
-            </div>
-            <div>
-                <form action="fb-image-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate Image" />
-                    </div>
-                </form>
+                <div>
+                    <h1 class="font">Generate a Instagram Image for</h1>
+                </div>
+                <div>
+                    <form action="fb-image-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate Image" />
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
         <hr>
@@ -87,35 +91,40 @@
 
 
         <div class="twitter_container">
-            <div>
-                <h1 >Write a Twitter Marketing Captions for</h1>
-            </div>
-            <div>
-                <form action="tw-caption-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate" />
-                    </div>
-                </form>
+        
+            <div class="inner_container">
+
+                <div>
+                    <h1 class="font">Write a Twitter Marketing Captions for</h1>
+                </div>
+                <div>
+                    <form action="tw-caption-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate" />
+                        </div>
+                    </form>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h1 class="font">Generate a Twitter image for</h1>
+                </div>
+                <div>
+                    <form action="fb-image-ai.php" method="post">
+                        <div>
+                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Generate Image" />
+                        </div>
+                    </form>
+                </div>
             </div>
 
-            <hr>
-
-            <div>
-                <h1 >Generate a Twitter image for</h1>
-            </div>
-            <div>
-                <form action="fb-image-ai.php" method="post">
-                    <div>
-                        <input type="text" name="prompt" placeholder="shoe, burger, etc" />
-                    </div>
-                    <div>
-                        <input type="submit" value="Generate Image" />
-                    </div>
-                </form>
-            </div>
         </div>
         
     </div>
