@@ -27,7 +27,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input class="btn" type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate Caption" />
                         </div>
                     </form>
                 </div>
@@ -64,7 +64,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input class="btn" type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate Caption" />
                         </div>
                     </form>
                 </div>
@@ -75,7 +75,7 @@
                     <h1 class="font">Generate a Instagram Image for</h1>
                 </div>
                 <div>
-                    <form action="fb-image-ai.php" method="post">
+                    <form action="ig-image-ai.php" method="post">
                         <div>
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
@@ -103,7 +103,7 @@
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>
                         <div>
-                            <input class="btn" type="submit" value="Generate" />
+                            <input class="btn" type="submit" value="Generate Caption" />
                         </div>
                     </form>
                 </div>
@@ -114,7 +114,7 @@
                     <h1 class="font">Generate a Twitter image for</h1>
                 </div>
                 <div>
-                    <form action="fb-image-ai.php" method="post">
+                    <form action="tw-image-ai.php" method="post">
                         <div>
                             <input type="text" name="prompt" placeholder="shoe, burger, etc" />
                         </div>

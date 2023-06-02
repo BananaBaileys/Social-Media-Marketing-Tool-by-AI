@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = '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';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
