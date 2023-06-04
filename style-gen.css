@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --color-golden: #DCCA87;
+    --color-black: #0C0C0C;
+    --color-gray: #545454;
+    --color-crimson: #F5EFDB;
+    --color-grey: #AAAAAA;
+    --color-white: #FFFFFF;
+}  
+
+body{
+    background-color: var(--color-black);
+}
+
+.h1_font{
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 1000;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.MT-headding{
+    text-align: center;
+}
+
+.font {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 460;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+
+.fonta {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 460;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 24px;
+
+}
+
+.btn:hover{
+    transform: translateY(-4px);
+    cursor: pointer; 
+    background-color: var(--color-crimson);
+    color: var(--color-grey);
+}
+.btn{
+
+    /* transition-property || transition-duration || transition-timing-function || transition-delay */
+
+    transition: transform 0.3s ease 0s;
+
+}

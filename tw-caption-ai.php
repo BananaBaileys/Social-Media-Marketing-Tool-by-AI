@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = 'sk-APIKEYYYYYYYYYYYYYYYYYYYYYYYYY';
+$open_ai_key = 'sk-HIDDEN-API-KEY';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
@@ -46,11 +46,11 @@ $complete = $open_ai->completion([
     <div class="MT-headding">
         <h1 class="h1_font">Social Media Marketing Tool</h1>
     </div>
-    <h1>Twitter Marketing Captions Output: <?= $prompt?></h1>
-    <div class="output-text">
+    <h1 class="fonta">Twitter Marketing Captions Output: <?= $prompt?></h1>
+    <div class="font" class="output-text">
         <?= $response?>
     </div>
-
+    <hr>
      <!-- "Copy to Clipboard" Button -->
      <button onclick="copyToClipboard()">Copy to Clipboard</button>
 
