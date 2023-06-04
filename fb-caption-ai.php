@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = 'APIKEYYYYYYYYYYYYYYYYYYYYYYYYY';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
@@ -21,6 +21,8 @@ $complete = $open_ai->completion([
 
  $response = json_decode($complete, true);
  $response = $response["choices"][0]["text"];    //in choice, array 0, the text
+
+
 
 ?>
 
@@ -40,9 +42,31 @@ $complete = $open_ai->completion([
     </style>
 </head>
 <body>
-    <h1>Facebook Marketing Captions Output:<?= $prompt?></h1>
+    <h1>Facebook Marketing Captions Output: <?= $prompt?></h1>
     <div class="output-text">
         <?= $response?>
+       
     </div>
+
+
+
+     <!-- "Copy to Clipboard" Button -->
+     <button onclick="copyToClipboard()">Copy to Clipboard</button>
+
+        <script>
+            function copyToClipboard() {
+                const outputText = document.querySelector('.output-text');
+                const textToCopy = outputText.innerText;
+
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => {
+                        alert('Text copied to clipboard!');
+                    })
+                    .catch((error) => {
+                        console.error('Error copying text:', error);
+                    });
+            }
+        </script>
+
 </body>
 </html>

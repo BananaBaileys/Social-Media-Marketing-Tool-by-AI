@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = 'sk-APIKEYYYYYYYYYYYYYYYYYYYYYYYYY';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
@@ -33,16 +33,42 @@ $complete = $open_ai->completion([
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Output</title>
+
+    <link rel="stylesheet" href="style-gen.css">
     <style>
         .output-text{
             white-space: break-spaces;
         }
     </style>
 </head>
+
 <body>
-    <h1>Twitter Marketing Captions Output:<?= $prompt?></h1>
+    <div class="MT-headding">
+        <h1 class="h1_font">Social Media Marketing Tool</h1>
+    </div>
+    <h1>Twitter Marketing Captions Output: <?= $prompt?></h1>
     <div class="output-text">
         <?= $response?>
     </div>
+
+     <!-- "Copy to Clipboard" Button -->
+     <button onclick="copyToClipboard()">Copy to Clipboard</button>
+
+        <script>
+            function copyToClipboard() {
+                const outputText = document.querySelector('.output-text');
+                const textToCopy = outputText.innerText;
+
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => {
+                        alert('Text copied to clipboard!');
+                    })
+                    .catch((error) => {
+                        console.error('Error copying text:', error);
+                    });
+            }
+        </script>
+
 </body>
 </html>
+
