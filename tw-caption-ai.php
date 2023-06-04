@@ -40,7 +40,7 @@ $complete = $open_ai->completion([
     </style>
 </head>
 <body>
-    <h1>Output of a twitter Marketing Captions for <?= $prompt?></h1>
+    <h1>Twitter Marketing Captions Output:<?= $prompt?></h1>
     <div class="output-text">
         <?= $response?>
     </div>

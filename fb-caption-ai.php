@@ -40,7 +40,7 @@ $complete = $open_ai->completion([
     </style>
 </head>
 <body>
-    <h1>Output of 3 Facebook Marketing Captions for <?= $prompt?></h1>
+    <h1>Facebook Marketing Captions Output:<?= $prompt?></h1>
     <div class="output-text">
         <?= $response?>
     </div>
