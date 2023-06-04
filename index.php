@@ -24,7 +24,7 @@
                 <div>
                     <form action="fb-caption-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="sushi, nba, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Caption" />
@@ -40,7 +40,7 @@
                 <div>
                     <form action="fb-image-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="t-shirt, burger, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Image" />
@@ -61,7 +61,7 @@
                 <div>
                     <form action="ig-caption-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="hotdog, airplane, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Caption" />
@@ -77,7 +77,7 @@
                 <div>
                     <form action="ig-image-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="Toronto, racoon, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Image" />
@@ -100,7 +100,7 @@
                 <div>
                     <form action="tw-caption-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="tesla, Hollywood, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Caption" />
@@ -116,7 +116,7 @@
                 <div>
                     <form action="tw-image-ai.php" method="post">
                         <div>
-                            <input type="text" name="prompt" placeholder="shoe, burger, etc" />
+                            <input type="text" name="prompt" placeholder="rollar coaster, fries, etc" />
                         </div>
                         <div>
                             <input class="btn" type="submit" value="Generate Image" />
