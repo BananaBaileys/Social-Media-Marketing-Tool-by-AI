@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';  // remove this line if you use a PHP 
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = 'sk-HIDDEN-API-KEY';
+$open_ai_key = 'sk-HIDDEN API KEY';
 $open_ai = new OpenAi($open_ai_key);
 $prompt = $_POST['prompt'];
 
@@ -34,7 +34,7 @@ $complete = $open_ai->completion([
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Output</title>
+    <title>FB Caption</title>
 
     <link rel="stylesheet" href="style-gen.css">
     <style>
